@@ -16,7 +16,6 @@ public class Program {
     ChessMatch chessMath = new ChessMatch();
     while(true){
       try{
-
         UI.clearScreen();
         UI.printBoard(chessMath.getPieces());
         System.out.println();
