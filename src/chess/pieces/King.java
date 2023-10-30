@@ -99,7 +99,7 @@ public class King extends ChessPiece {
       }
       //Movimento Especial Castling (Roque), lado da Rainha
       Position posT2 = new Position(position.getRow(), position.getColumn() - 4);
-      if(testRookCastling(posT2){
+      if(testRookCastling(posT2)){
         //Verificar se as posições a direita do Rei estão vazias
         Position p1 = new Position(position.getRow(), position.getColumn() - 1);
         Position p2 = new Position(position.getRow(), position.getColumn() - 2);
